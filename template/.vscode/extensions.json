@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    // MS official for java Dev
+    "vscjava.vscode-java-pack",
+
+    // スペルチェッカー
+    "streetsidesoftware.code-spell-checker",
+    // インデントの可視化
+    "oderwat.indent-rainbow",
+    // 自動タグリネーム
+    "formulahendry.auto-rename-tag",
+    // Improve highlighting of errors, warnings and other language diagnostics.
+    "usernamehw.errorlens",
+    // editconfig
+    "editorconfig.editorconfig",
+    // git tc
+    "github.vscode-pull-request-github",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "mhutchie.git-graph"
+  ],
+  "unwantedRecommendations": [
+    // 必要に応じて、推奨したくない拡張機能があれば記述
+  ]
+}

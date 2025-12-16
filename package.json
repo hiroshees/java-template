@@ -1,0 +1,16 @@
+{
+  "name": "java-template",
+  "version": "1.0.0",
+  "description": "java template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroshees/java-template.git"
+  },
+  "keywords": [],
+  "author": "Hiroshi Fujiwara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiroshees/java-template/issues"
+  },
+  "homepage": "https://github.com/hiroshees/java-template#readme"
+}
