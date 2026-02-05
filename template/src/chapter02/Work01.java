@@ -1,3 +1,4 @@
+package chapter02;
 public class Work01 {
     public static void main(String[] args) {
         String text = "Hello, Chapter02 Work01";

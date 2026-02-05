@@ -54,5 +54,6 @@
       "path": "/home/vscode/java_home",
       "default": true
     }
-  ]
+  ],
+  "java.project.sourcePaths": ["src"]
 }
