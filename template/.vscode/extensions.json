@@ -6,6 +6,8 @@
     //"vscjava.vscode-gradle",
     // Spring Boot
     //"vmware.vscode-boot-dev-pack",
+    // Google Java Format for VS Code
+    //"josevseb.google-java-format-for-vs-code",
     // スペルチェッカー
     "streetsidesoftware.code-spell-checker",
     // インデントの可視化

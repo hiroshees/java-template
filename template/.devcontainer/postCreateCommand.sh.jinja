@@ -43,4 +43,20 @@ else
   ln -sfn $(mise where java) ~/java_home
   echo "JAVA_HOMEへのシンボリックリンクを作成しました"
   echo "miseの設定が完了しました"
+  ln -sfn $(mise where java) ~/java_home
+  echo "JAVA_HOMEへのシンボリックリンクを作成しました"
+  echo '' >> ~/.bashrc
+  echo '## ADD JAVA_HOME TO PATH' >> ~/.bashrc  
+  echo 'export JAVA_HOME=$(mise where java)' >> ~/.bashrc
+  echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.bashrc
+  echo '' >> ~/.bashrc
+  source ~/.bashrc
+  echo '' >> ~/.profile
+  echo '' >> ~/.profile
+  echo '## ADD JAVA_HOME TO PATH' >> ~/.profile
+  echo 'export JAVA_HOME=$(mise where java)' >> ~/.profile
+  echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.profile
+  echo '' >> ~/.profile
+  source ~/.profile
+  echo "PATHの設定が完了しました"
 fi
