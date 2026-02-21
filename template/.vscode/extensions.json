@@ -8,6 +8,8 @@
     //"vmware.vscode-boot-dev-pack",
     // Google Java Format for VS Code
     //"josevseb.google-java-format-for-vs-code",
+    // Checkstyle for Java
+    "shengchen.vscode-checkstyle",
     // スペルチェッカー
     "streetsidesoftware.code-spell-checker",
     // インデントの可視化

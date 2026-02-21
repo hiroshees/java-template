@@ -78,5 +78,7 @@
   // "java.format.settings.google.extra": "--aosp",
   "[java]": {
     "editor.tabSize": 2
-  }
+  },
+  "java.checkstyle.configuration": "./.vscode/google_checks.xml",
+  "java.checkstyle.version": "13.2.0"
 }
